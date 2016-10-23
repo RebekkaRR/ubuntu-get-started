@@ -1,0 +1,35 @@
+//clyrics
+
+//create clyrics directory in .config folder
+
+mkdir /home/$user/.config/clyrics
+
+//go to /opt directory
+
+cd /opt
+
+//clone clyrics repository
+
+sudo git clone https://github.com/trizen/clyrics.git
+
+//go to clyrics directory
+
+cd ./clyrics
+
+//install cpanminus
+
+sudo apt install cpanminus
+
+//install module
+
+sudo cpanm WWW::Mechanize
+
+//go to plugin directory
+
+cd plugin
+
+//copy all .pl files to /home/$user/.config/clyrics directory
+
+sudo cp *.pl /home/$user/.config/clyrics
+
+/now you can launch clyrics globally from your terminal!
