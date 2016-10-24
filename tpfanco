@@ -1,0 +1,31 @@
+//install requirements
+
+sudo apt install python-gobject python-gtk2 python-glade2
+
+//clone repository's
+
+git clone https://github.com/tpfanco/tpfancod.git
+git clone https://github.com/tpfanco/tpfanco-admin.git
+
+//change into backend directory
+
+cd tpfancod
+
+//install backend module
+
+sudo make install-systemd
+
+//enable backend
+
+sudo systemctl enable tpfancod
+
+//change into gui directory
+
+cd ..
+cd tpfandco-admin
+
+//install gui
+
+sudo make install
+
+//reboot system
