@@ -1,6 +1,5 @@
 #!/bin/bash
 mkdir  /home/$user/.config/clyrics
-sudo su
 git clone https://github.com/trizen/clyrics.git /opt/clyrics
 apt install cpanminus
 cpanm WWW::Mechanize
