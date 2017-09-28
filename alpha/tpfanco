@@ -2,7 +2,7 @@
 
 sudo apt install python-gobject python-gtk2 python-glade2
 
-//clone repository's
+//clone repositorys
 
 git clone https://github.com/tpfanco/tpfancod.git
 git clone https://github.com/tpfanco/tpfanco-admin.git
