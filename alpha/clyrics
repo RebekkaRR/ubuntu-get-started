@@ -32,4 +32,4 @@ cd plugin
 
 sudo cp *.pl /home/$user/.config/clyrics
 
-/now you can launch clyrics globally from your terminal!
+//now you can launch clyrics globally from your terminal!
