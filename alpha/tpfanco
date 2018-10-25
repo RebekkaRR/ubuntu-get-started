@@ -28,4 +28,8 @@ cd tpfandco-admin
 
 sudo make install
 
+//remove unnecessary files
+
+rm -rf tpfancod
+
 //reboot system
