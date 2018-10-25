@@ -6,7 +6,7 @@ sudo wget https://tdesktop.com/linux -O /opt/telegram-desktop.tar.gz
 
 sudo tar -Jxf /opt/telegram-desktop.tar.gz -C /opt/
 
-//verlinkung
+//link Telegram binary to user binary folder
 
 sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
 
